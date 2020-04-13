@@ -1,0 +1,13 @@
+C:\Users\stumm\Desktop\C# and .NET\src\Kurs\bin\Debug\netcoreapp3.1\Kurs.exe
+C:\Users\stumm\Desktop\C# and .NET\src\Kurs\bin\Debug\netcoreapp3.1\Kurs.deps.json
+C:\Users\stumm\Desktop\C# and .NET\src\Kurs\bin\Debug\netcoreapp3.1\Kurs.runtimeconfig.json
+C:\Users\stumm\Desktop\C# and .NET\src\Kurs\bin\Debug\netcoreapp3.1\Kurs.runtimeconfig.dev.json
+C:\Users\stumm\Desktop\C# and .NET\src\Kurs\bin\Debug\netcoreapp3.1\Kurs.dll
+C:\Users\stumm\Desktop\C# and .NET\src\Kurs\bin\Debug\netcoreapp3.1\Kurs.pdb
+C:\Users\stumm\Desktop\C# and .NET\src\Kurs\obj\Debug\netcoreapp3.1\Kurs.csprojAssemblyReference.cache
+C:\Users\stumm\Desktop\C# and .NET\src\Kurs\obj\Debug\netcoreapp3.1\Kurs.csproj.CoreCompileInputs.cache
+C:\Users\stumm\Desktop\C# and .NET\src\Kurs\obj\Debug\netcoreapp3.1\Kurs.AssemblyInfoInputs.cache
+C:\Users\stumm\Desktop\C# and .NET\src\Kurs\obj\Debug\netcoreapp3.1\Kurs.AssemblyInfo.cs
+C:\Users\stumm\Desktop\C# and .NET\src\Kurs\obj\Debug\netcoreapp3.1\Kurs.dll
+C:\Users\stumm\Desktop\C# and .NET\src\Kurs\obj\Debug\netcoreapp3.1\Kurs.pdb
+C:\Users\stumm\Desktop\C# and .NET\src\Kurs\obj\Debug\netcoreapp3.1\Kurs.genruntimeconfig.cache

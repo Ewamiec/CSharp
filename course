@@ -1,0 +1,290 @@
+using System;
+
+namespace GradeBook
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            if (args.Length > 0)
+            {    
+            Console.WriteLine($"Hello, {args[0]}!");
+            }
+            else
+            {
+            Console.WriteLine($"Hello, please tell me your name!");
+            }
+        }
+    }
+}
+
+//----------------------------------------------------
+//Sum - example
+
+using System;
+
+namespace GradeBook
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 18;
+            int y = 9;
+            {    
+            Console.WriteLine($"Hello, the sum is {x + y}");
+            }
+        }
+    }
+}
+
+//----------------------------------------------------
+//Code - first result, var, cw
+
+using System;
+
+namespace GradeBook
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var x = 34.1;
+            var y = 10.3;
+            var result = x + y;
+            Console.WriteLine(result);
+
+            if(args.Length > 0)
+            {    
+                Console.WriteLine($"Hello, {args[0]}!");
+            }            
+
+            else
+            {    
+            Console.WriteLine("Hello, how should I call you?");
+            }
+        }
+    }
+}
+
+//----------------------------------------------------
+//Next sum example
+using System;
+
+namespace GradeBook
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var numbers = new double[3];
+            numbers[0] = 12.7;
+            numbers[1] = 10.3;
+            numbers[2] = 6.11;
+
+            var result = numbers[0];
+            result = result + numbers[1];
+            result = result + numbers[2];
+
+            Console.WriteLine(result);
+            
+            if(args.Length > 0)
+            {    
+                Console.WriteLine($"Hello, {args[0]}!");
+            }            
+
+            else
+            {    
+            Console.WriteLine("Hello, how should I call you?");
+            }
+        }
+    }
+}
+
+//Result += number
+//------------------------------------------------------------------
+using System;
+
+namespace GradeBook
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var numbers = new[] {12.7, 10.3, 6.11, 4.1};
+
+
+            var result = 0.0;
+            foreach(var number in numbers)
+            {
+                result += number;
+            }
+            Console.WriteLine(result);
+
+            if(args.Length > 0)
+            {    
+                Console.WriteLine($"Hello, {args[0]}!");
+            }            
+
+            else
+            {    
+            Console.WriteLine("Hello, how should I call you?");
+            }
+        }
+    }
+}
+
+//Przyklad - tworzenie listy + dodawanie elementow, Collections.Generic
+//------------------------------------------
+
+using System;
+using System.Collections.Generic;
+
+namespace GradeBook
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var numbers = new[] {12.7, 10.3, 6.11, 4.1};
+            var grades = new List<double>() {12.7, 10.3, 6.11, 4.1};
+            grades.Add(56.1);
+
+            var result = 0.0;
+            foreach(var number in numbers)
+            {
+                result += number;
+            }
+            Console.WriteLine(result);
+
+            if(args.Length > 0)
+            {    
+                Console.WriteLine($"Hello, {args[0]}!");
+            }            
+
+            else
+            {    
+            Console.WriteLine("Hello, how should I call you?");
+            }
+        }
+    }
+}
+
+//Computing and formatting
+//------------------------------------------
+
+using System;
+using System.Collections.Generic;
+
+namespace GradeBook
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var grades = new List<double>() {12.7, 10.3, 6.11, 4.1};
+            grades.Add(56.1);
+
+            var result = 0.0;
+            foreach(var number in grades)
+            {
+                result += number;
+            }
+            result = result / grades.Count;
+            Console.WriteLine(result);
+
+            if(args.Length > 0)
+            {    
+                Console.WriteLine($"Hello, {args[0]}!");
+            }            
+
+            else
+            {    
+            Console.WriteLine("Hello, how should I call you?");
+            }
+        }
+    }
+}
+
+//String interpolation
+//---------------------------------------------
+
+using System;
+using System.Collections.Generic;
+
+namespace GradeBook
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var grades = new List<double>() {12.7, 10.3, 6.11, 4.1};
+            grades.Add(56.1);
+
+            var result = 0.0;
+            foreach(var number in grades)
+            {
+                result += number;
+            }
+            result = result / grades.Count;
+            Console.WriteLine($"The average grade is {result:N2}");
+
+            if(args.Length > 0)
+            {    
+                Console.WriteLine($"Hello, {args[0]}!");
+            }            
+
+            else
+            {    
+            Console.WriteLine("Hello, how should I call you?");
+            }
+        }
+    }
+}
+
+
+//Przyklad z polskiego bloga
+//---------------------------------------------
+
+using System;
+
+namespace Kurs
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {   
+            Console.WriteLine("Hello world!");
+        }
+    }
+}
+
+//MODULE III
+//---------------------------------------------
+
+using System;
+using System.Collections.Generic;
+
+namespace GradeBook
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var grades = new List<double>() {12.7, 10.3, 6.11, 4.1};
+            grades.Add(56.1);
+
+            var result = 0.0;
+            foreach(var number in grades)
+            {
+                result += number;
+            }
+            result = result / grades.Count;
+            Console.WriteLine($"The average grade is {result:N2}");
+        }
+    }
+}
+
+//Creating a class
+//---------------------------------------------
+
