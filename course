@@ -285,6 +285,58 @@ namespace GradeBook
     }
 }
 
-//Creating a class
+//Creating a class, object, constructor...
 //---------------------------------------------
+
+//a) Program executing the code --> Program.cs
+using System;
+using System.Collections.Generic;
+
+namespace GradeBook
+{
+
+    class Program
+    {  
+        static void Main(string[] args)
+        {
+            var book = new Book();
+            book.AddGrade(89.1);
+
+            var grades = new List<double>() {12.7, 10.3, 6.11, 4.1};
+            grades.Add(56.1);
+
+            var result = 0.0;
+            foreach(var number in grades)
+            {
+                result += number;
+            }
+            result /= grades.Count;
+            Console.WriteLine($"The average grade is {result:N2}");
+        }
+    }
+}
+
+//b) Program in which we have defined the class, object and method --> Book.cs
+using System.Collections.Generic;
+
+namespace GradeBook
+{
+    class Book
+    {
+        public Book()
+        {
+            grades = new List<double>();
+        }
+
+        public void AddGrade(double grade)
+        {
+            grades.Add(grade);
+        }
+
+        List <double> grades;
+    }
+}
+
+//Constructor, this.name == {Python} self.name
+//---------------------------------------------------------------
 
